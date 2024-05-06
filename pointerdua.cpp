@@ -3,7 +3,7 @@ using namespace std;
 
 class mahasiswa
 {
-    public:
+public:
      int nim
      void showNim()
      {
@@ -15,4 +15,7 @@ int main()
 {
     mahasiswa *mhs = new mahasiswa{1}; // pointer object mhs
     mhs->nim = 2;
+    mhs->showNim();
+    delete mhs;
+    return 0;
 }

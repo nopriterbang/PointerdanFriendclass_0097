@@ -21,3 +21,4 @@ int main()
     setNama(Joko, "Kairi Kumar")
     return 0;
 }
+

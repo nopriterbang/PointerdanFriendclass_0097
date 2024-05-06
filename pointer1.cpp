@@ -4,7 +4,7 @@ using namespace std;
 class mahasiswa{
     public:
     int nim;
-    void shoNim(){
+    void showNim(){
         cout << "No Induk = "<<nim<<endl;
     }
 
@@ -13,7 +13,7 @@ class mahasiswa{
 int main(){
     
     mahasiswa mhs{1}; // object mhs
-    mhs showNim(); // member access operator
+    mhs.showNim(); // member access operator
 
     mahasiswa &refMhs = mhs; // operator reference refMhs
     refMhs.nim = 2; // member access operator
