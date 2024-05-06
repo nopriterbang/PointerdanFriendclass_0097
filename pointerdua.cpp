@@ -4,5 +4,10 @@ using namespace std;
 class mahasiswa
 {
     public:
-     int
-}
+     int nim
+     void showNim()
+     {
+        cout << "No Induk = " << nim << endl;
+     }
+};
+
